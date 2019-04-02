@@ -1,0 +1,152 @@
+Cp, prudential_1	# create a portfolio name prudential_1
+Portfolio Status: prudential_1
+  Account: prudential_1, 0
+  Stock: 
+  Real Estate: 
+Dp, prudential_1, 1000000	#deposit 1 million dollars to prudential_1
+Portfolio Status: prudential_1
+  Account: prudential_1, 1000000.0
+  Stock: 
+  Real Estate: 
+Bs, MSFT, 100, 58.32, prudential_1	# buy Microsoft stock 100 shares with each share $58.32. for prudential _1. make sure there is enough fund on prudential_1¡¯s account
+Portfolio Status: prudential_1
+  Account: prudential_1, 994168.0
+  Stock: 
+    MSFT, 100.0, 5832.0
+  Real Estate: 
+Bs, MSFT, 400, 59.52, prudential_1	# buy Microsoft stock 400 shares with each share $59.52. for prudential _1. make sure there is enough fund on prudential_1¡¯s account
+Portfolio Status: prudential_1
+  Account: prudential_1, 970360.0
+  Stock: 
+    MSFT, 500.0, 29640.0
+  Real Estate: 
+Cp, prudential_2	# create a portfolio name prudential_2
+Portfolio Status: prudential_1
+  Account: prudential_1, 970360.0
+  Stock: 
+    MSFT, 500.0, 29640.0
+  Real Estate: Portfolio Status: prudential_2
+  Account: prudential_2, 0
+  Stock: 
+  Real Estate: 
+Dp, prudential_2, 1000000000	#deposit 1 billion dollars to prudential_2
+Portfolio Status: prudential_1
+  Account: prudential_1, 970360.0
+  Stock: 
+    MSFT, 500.0, 29640.0
+  Real Estate: Portfolio Status: prudential_2
+  Account: prudential_2, 1000000000.0
+  Stock: 
+  Real Estate: 
+Br, Newark_NJ_1400, 500000, prudential_2	# buy a piece of building from Newark_NJ_1400 with price 500 thousands for prudential _2. Make sure that you have enough money in your account to buy
+Portfolio Status: prudential_1
+  Account: prudential_1, 970360.0
+  Stock: 
+    MSFT, 500.0, 29640.0
+  Real Estate: Portfolio Status: prudential_2
+  Account: prudential_2, 999500000.0
+  Stock: 
+  Real Estate: 
+    Newark_NJ_1400, 500000.0
+Br, Morris_NJ_1379, 1500000, prudential_2	# buy a piece of building from Morris_NJ_1379 with price one million 500 thousand dollars for prudential _2. Make sure that you have enough money in your account to buy
+Portfolio Status: prudential_1
+  Account: prudential_1, 970360.0
+  Stock: 
+    MSFT, 500.0, 29640.0
+  Real Estate: Portfolio Status: prudential_2
+  Account: prudential_2, 998000000.0
+  Stock: 
+  Real Estate: 
+    Newark_NJ_1400, 500000.0
+    Morris_NJ_1379, 1500000.0
+Bs, AAPL, 200, 150.06, prudential_2             # buy Apple stock 200 shares with each share $150.06. for prudential _2. make sure there is enough fund on prudential_2¡¯s account  
+Portfolio Status: prudential_1
+  Account: prudential_1, 970360.0
+  Stock: 
+    MSFT, 500.0, 29640.0
+  Real Estate: Portfolio Status: prudential_2
+  Account: prudential_2, 997969988.0
+  Stock: 
+    AAPL, 200.0, 30012.0
+  Real Estate: 
+    Newark_NJ_1400, 500000.0
+    Morris_NJ_1379, 1500000.0
+Wd, prudential_2, 1000000	# withdraw one million dollars from prudential_2
+Portfolio Status: prudential_1
+  Account: prudential_1, 970360.0
+  Stock: 
+    MSFT, 500.0, 29640.0
+  Real Estate: Portfolio Status: prudential_2
+  Account: prudential_2, 996969988.0
+  Stock: 
+    AAPL, 200.0, 30012.0
+  Real Estate: 
+    Newark_NJ_1400, 500000.0
+    Morris_NJ_1379, 1500000.0
+Ss, MSFT, 300, 63.48, prudential_1        #sell Microsoft stock 300 shares with each share $63.48. for prudential _1.
+Portfolio Status: prudential_1
+  Account: prudential_1, 989404.0
+  Stock: 
+    MSFT, 200.0, -14820.0
+  Real Estate: Portfolio Status: prudential_2
+  Account: prudential_2, 996969988.0
+  Stock: 
+    AAPL, 200.0, 30012.0
+  Real Estate: 
+    Newark_NJ_1400, 500000.0
+    Morris_NJ_1379, 1500000.0
+Xf, prudential_2, prudential_1, 100.00	# transfer one hundred dollars from prudential_1 to prudential_2
+Portfolio Status: prudential_1
+  Account: prudential_1, 989304.0
+  Stock: 
+    MSFT, 200.0, -14820.0
+  Real Estate: Portfolio Status: prudential_2
+  Account: prudential_2, 996970088.0
+  Stock: 
+    AAPL, 200.0, 30012.0
+  Real Estate: 
+    Newark_NJ_1400, 500000.0
+    Morris_NJ_1379, 1500000.0
+Xs, prudential_1, prudential_2, MSFT, 20	#transfer 20 shares of MSFT stock from prudential_1 to prudential_2
+Portfolio Status: prudential_1
+  Account: prudential_1, 989304.0
+  Stock: 
+    MSFT, 180.0, -13173.333333333334
+  Real Estate: Portfolio Status: prudential_2
+  Account: prudential_2, 996970088.0
+  Stock: 
+    AAPL, 200.0, 30012.0
+    MSFT, 20.0, -1482.0
+  Real Estate: 
+    Newark_NJ_1400, 500000.0
+    Morris_NJ_1379, 1500000.0
+Xr, prudential_2, prudential_1, Morris_NJ_1379	# transfer property Morris_NJ_1379 from prudential_1 to prudential_2
+Portfolio Status: prudential_1
+  Account: prudential_1, 989304.0
+  Stock: 
+    MSFT, 180.0, -13173.333333333334
+  Real Estate: 
+    Morris_NJ_1379, 1500000.0Portfolio Status: prudential_2
+  Account: prudential_2, 996970088.0
+  Stock: 
+    AAPL, 200.0, 30012.0
+    MSFT, 20.0, -1482.0
+  Real Estate: 
+    Newark_NJ_1400, 500000.0
+Mg, prudential_1, prudential_2, PRUD            # merge prudential_1, prudential_2 to become PRUD
+Portfolio Status: PRUD
+  Account: PRUD, 997959392.0
+  Stock: 
+    MSFT, 2, -147.28518518518518
+    AAPL, 1, 150.06
+  Real Estate: 
+    Morris_NJ_1379, 1500000.0
+    Newark_NJ_1400, 500000.0
+Sr, Morris_NJ_1379, 1800000, PRUD               # sell property Morris_NJ_1379 with price one million 800 thousand dollars.
+Portfolio Status: PRUD
+  Account: PRUD, 999759392.0
+  Stock: 
+    AAPL, 1, 150.06
+  Real Estate: 
+    Morris_NJ_1379, 1500000.0
+    Newark_NJ_1400, 500000.0
