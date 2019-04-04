@@ -2,7 +2,7 @@
 A very very simple account recording program. JUST A PRACTICE.
 
 
-A Python program which will create at least three classes to perform financial management.
+A Python program which will perform financial management.
 
 A portfolio contains assets of a person, an organization, or a company. An asset can be cash in an account, real estate, or stocks. To simplify our program, assume portfolio has a name as its attribute.
 
