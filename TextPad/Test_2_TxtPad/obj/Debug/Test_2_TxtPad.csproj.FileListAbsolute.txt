@@ -1,0 +1,10 @@
+E:\C#学习\Test_2_TxtPad\Test_2_TxtPad\bin\Debug\Test_2_TxtPad.exe.config
+E:\C#学习\Test_2_TxtPad\Test_2_TxtPad\bin\Debug\Test_2_TxtPad.exe
+E:\C#学习\Test_2_TxtPad\Test_2_TxtPad\bin\Debug\Test_2_TxtPad.pdb
+E:\C#学习\Test_2_TxtPad\Test_2_TxtPad\obj\Debug\Test_2_TxtPad.csprojResolveAssemblyReference.cache
+E:\C#学习\Test_2_TxtPad\Test_2_TxtPad\obj\Debug\Test_2_TxtPad.TxtPad.resources
+E:\C#学习\Test_2_TxtPad\Test_2_TxtPad\obj\Debug\Test_2_TxtPad.Properties.Resources.resources
+E:\C#学习\Test_2_TxtPad\Test_2_TxtPad\obj\Debug\Test_2_TxtPad.csproj.GenerateResource.Cache
+E:\C#学习\Test_2_TxtPad\Test_2_TxtPad\obj\Debug\Test_2_TxtPad.exe
+E:\C#学习\Test_2_TxtPad\Test_2_TxtPad\obj\Debug\Test_2_TxtPad.pdb
+E:\C#学习\Test_2_TxtPad\Test_2_TxtPad\obj\Debug\Test_2_TxtPad.FindForm.resources
