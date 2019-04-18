@@ -1,0 +1,8 @@
+E:\0.学校与学习\1.学校课程\C#学习\1.点名器\1.点名器\bin\Debug\1.点名器.exe.config
+E:\0.学校与学习\1.学校课程\C#学习\1.点名器\1.点名器\bin\Debug\1.点名器.exe
+E:\0.学校与学习\1.学校课程\C#学习\1.点名器\1.点名器\bin\Debug\1.点名器.pdb
+E:\0.学校与学习\1.学校课程\C#学习\1.点名器\1.点名器\obj\Debug\_1.点名器.Form1.resources
+E:\0.学校与学习\1.学校课程\C#学习\1.点名器\1.点名器\obj\Debug\_1.点名器.Properties.Resources.resources
+E:\0.学校与学习\1.学校课程\C#学习\1.点名器\1.点名器\obj\Debug\1.点名器.csproj.GenerateResource.Cache
+E:\0.学校与学习\1.学校课程\C#学习\1.点名器\1.点名器\obj\Debug\1.点名器.exe
+E:\0.学校与学习\1.学校课程\C#学习\1.点名器\1.点名器\obj\Debug\1.点名器.pdb
