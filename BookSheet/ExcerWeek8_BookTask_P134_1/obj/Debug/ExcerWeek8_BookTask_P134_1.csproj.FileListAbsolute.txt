@@ -1,0 +1,9 @@
+E:\C#学习\ExcerWeek8_BookTask_P134_1\ExcerWeek8_BookTask_P134_1\bin\Debug\ExcerWeek8_BookTask_P134_1.exe.config
+E:\C#学习\ExcerWeek8_BookTask_P134_1\ExcerWeek8_BookTask_P134_1\bin\Debug\ExcerWeek8_BookTask_P134_1.exe
+E:\C#学习\ExcerWeek8_BookTask_P134_1\ExcerWeek8_BookTask_P134_1\bin\Debug\ExcerWeek8_BookTask_P134_1.pdb
+E:\C#学习\ExcerWeek8_BookTask_P134_1\ExcerWeek8_BookTask_P134_1\obj\Debug\ExcerWeek8_BookTask_P134_1.csprojResolveAssemblyReference.cache
+E:\C#学习\ExcerWeek8_BookTask_P134_1\ExcerWeek8_BookTask_P134_1\obj\Debug\ExcerWeek8_BookTask_P134_1.Form1.resources
+E:\C#学习\ExcerWeek8_BookTask_P134_1\ExcerWeek8_BookTask_P134_1\obj\Debug\ExcerWeek8_BookTask_P134_1.Properties.Resources.resources
+E:\C#学习\ExcerWeek8_BookTask_P134_1\ExcerWeek8_BookTask_P134_1\obj\Debug\ExcerWeek8_BookTask_P134_1.csproj.GenerateResource.Cache
+E:\C#学习\ExcerWeek8_BookTask_P134_1\ExcerWeek8_BookTask_P134_1\obj\Debug\ExcerWeek8_BookTask_P134_1.exe
+E:\C#学习\ExcerWeek8_BookTask_P134_1\ExcerWeek8_BookTask_P134_1\obj\Debug\ExcerWeek8_BookTask_P134_1.pdb
