@@ -15,3 +15,10 @@ for i = 1 : 5000
     cTemp = cTemp';
 end
 toc
+
+% 48s
+tic
+for i = 1 : 5000
+    aaa = num2cell(str2double(cellstr(datestr(cDate, 'yyyymmdd'))));
+end
+toc
